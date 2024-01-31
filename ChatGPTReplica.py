@@ -3,7 +3,7 @@ from openai import OpenAI
 import os
 
 # Set your OpenAI API key here
-client = OpenAI(api_key="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")
+client = OpenAI(api_key="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")
 
 # Function to interact with the OpenAI model with parameters
 def generate_response(prompt, model="gpt-3.5-turbo", inTemperature=0, chat_history=None):
